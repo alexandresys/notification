@@ -1,0 +1,32 @@
+{
+    "name": "alexandresys/notification",
+    "description": "Email Notification Library using phpMailer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alexandresys",
+            "email": "alexandresys@hotmail.com",
+			"homepage": "https://www.valesistem.com.br",
+			"role": "CEO and Founder"
+        },
+		{
+			"name": "Andrezza",
+            "email": "andrezza_luna@hotmail.com",
+			"homepage": "https://www.valesistem.com.br",
+			"role": "Developer"
+		}
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.0.7"
+    },
+	"config": {
+	"vendor-dir": "lib_ext"
+	},
+	"autoload": {
+		"psr-4": {
+			"Notification\\": "_app"
+			}
+		}
+}
