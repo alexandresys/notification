@@ -6,7 +6,7 @@ Email using a phpmailer library. Doing a decompilation action is essential for a
 To do a library installation, run the following command:
 
 ```sh
-composer requires gustavoweb / composer_test
+composer require alexandresys/notification
 ```
 
 To make use of the library, simply require the composer's autoload, invoke and call the method:
